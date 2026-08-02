@@ -44,7 +44,7 @@ df["description"] = df["description"].fillna("")
 # These skill names collide with common English words / single letters, so a plain
 # regex match is unreliable ("go" the verb, "R" as a random letter, etc).
 # We only accept them when they appear in list-style formatting, e.g. "Python, SQL, Go, AWS".
-AMBIGUOUS_SKILLS = {"Go", "R", "C"}
+AMBIGUOUS_SKILLS = {"Go", "R", "C", "Express.js"}
 LIST_DELIMS = set(",;|•-*()\n:")
 
 def looks_like_list_context(text, start, end, window=3):

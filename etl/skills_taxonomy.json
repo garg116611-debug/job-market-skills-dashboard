@@ -16,6 +16,7 @@
   "PHP": {"category": "language", "aliases": []},
   "Shell Scripting": {"category": "language", "aliases": ["Bash", "Shell"]},
   "MATLAB": {"category": "language", "aliases": []},
+  "COBOL": {"category": "language", "aliases": []},
 
   "PostgreSQL": {"category": "database", "aliases": ["Postgres"]},
   "MySQL": {"category": "database", "aliases": []},
